@@ -1,13 +1,8 @@
 name: Wpf Continuous Integration
 
-on:
-  push:
-    branches:
-      - master
-      - "maintenence/*"
-  pull_request:
-    branches:
-      - master
+"on":
+  - push
+  - workflow_dispatch
 
 jobs:
   build:
